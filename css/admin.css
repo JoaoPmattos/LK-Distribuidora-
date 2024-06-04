@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'play';
+}
+
+.navbar-nav {
+    padding-left: 34vw;
+}
+
+.navbar-brand img {
+    height: 6vw;
+}
+
+.texto {
+    padding-top: 1vw;
+    font-size: large;
+    color: white;
+    text-align: center;
+}
+
+.textoadmin {
+    text-align: center;
+    padding-top: 1vw;
+    padding-left: 32vw;
+    font-size: large;
+    color: white;
+}
+
+.navbar {
+    padding-top: 1vw;
+    background-color: #541D1D;
+    border: 1px solid #ffd600;
+    border-left: none;
+    border-right: none
+}
+
+.dropdown p{
+    color: white;
+}
+
+.dropdown-menu{
+    background-color: #ffd600;
+
+}
+
+.dropdown-menu:hover{
+    background-color: #ffd600;
+}
+.dropdown-item:hover{
+    background-color: #927c0c;
+    transform: scale(1.15);
+
+}
+.fundo img{
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+}

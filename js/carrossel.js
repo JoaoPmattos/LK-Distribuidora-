@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.carrossel').slick({
+      dots:true,
+      slideToShow:5,
+      autoplay:true,
+      infinite:true,
+      speed:1500,
+      autoplayspeed:3000
+    })  
+  })
